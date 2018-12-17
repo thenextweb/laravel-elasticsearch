@@ -33,6 +33,14 @@
   "extra": {
     "branch-alias": {
       "dev-master": "4.5.x-dev"
+    },
+    "laravel": {
+        "providers": [
+            "Shift31\\LaravelElasticsearch\\ElasticsearchServiceProvider"
+        ],
+        "aliases": {
+            "Es": "Shift31\\LaravelElasticsearch\\Facades\\Es"
+        }
     }
   },
   "scripts": {
